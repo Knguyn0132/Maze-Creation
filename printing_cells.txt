@@ -1,0 +1,30 @@
+print("Cell x: #{column_index}, y: #{row_index} ")
+
+        if (@columns[column_index][row_index].north != nil) 
+          print("north: 1 ");
+        else 
+          print("north: 0 ");
+        end
+
+        if (@columns[column_index][row_index].south != nil) 
+          print("south: 1 ");
+        else
+          print("south: 0 ");
+        end
+
+        if (@columns[column_index][row_index].east != nil) 
+          print("east: 1 ");
+        else
+          print("east: 0 ");
+        end
+
+        if (@columns[column_index][row_index].west != nil) 
+          print("west: 1 ");
+        else
+          print("west: 0 ");
+        end
+
+        puts("")
+
+
+        puts("------------- End of Column -------------")
